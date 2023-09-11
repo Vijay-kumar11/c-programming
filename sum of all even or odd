@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+	int num,i,evensum=0,oddsum=0;
+	printf("enter the number");
+	scanf("%d",&num);
+	for(i=1;i<num;i++)
+	if(i%2==0)
+evensum=evensum+i;
+else
+oddsum=oddsum+i;
+printf("sum of all even number %d=%d\n",num,evensum);
+printf("sum of all odd number %d=%d\n",num,oddsum);
+return 0;
+}
